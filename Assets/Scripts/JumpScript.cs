@@ -8,7 +8,7 @@ public class JumpScript : MonoBehaviour
     // You are a finder of easter eggs!
 
     private Rigidbody2D rb;
-    public float jumpPower = 200;
+    public float jumpPower = 256;
 
     // Start is called before the first frame update
     void Start()
