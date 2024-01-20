@@ -600,7 +600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07e8c9e776ca3324c95d56c7d4981006, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpPower: 200
+  jumpPower: 1000
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
