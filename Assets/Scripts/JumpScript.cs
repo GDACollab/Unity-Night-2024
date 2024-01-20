@@ -9,6 +9,7 @@ public class JumpScript : MonoBehaviour
 
     private Rigidbody2D rb;
     public float jumpPower = 200;
+    public float speed = 10;
 
     // Start is called before the first frame update
     void Start()
@@ -23,5 +24,6 @@ public class JumpScript : MonoBehaviour
         {
             rb.AddForce(jumpPower * Vector2.up);
         }
+        rb.AddForce(Vector2.right * Input.GetAxis("Horizontal") * speed);
     }
 }
