@@ -23,5 +23,17 @@ public class JumpScript : MonoBehaviour
         {
             rb.AddForce(jumpPower * Vector2.up);
         }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            rb.AddForce(jumpPower * Vector2.up);
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            rb.AddForce((jumpPower/2) * Vector2.left);
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            rb.AddForce((jumpPower/2) * Vector2.right);
+        }
     }
 }
