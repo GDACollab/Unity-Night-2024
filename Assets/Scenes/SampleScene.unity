@@ -441,6 +441,7 @@ GameObject:
   - component: {fileID: 1597882236}
   - component: {fileID: 1597882235}
   - component: {fileID: 1597882234}
+  - component: {fileID: 1597882239}
   - component: {fileID: 1597882238}
   m_Layer: 0
   m_Name: Player
@@ -601,6 +602,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpPower: 500
+--- !u!114 &1597882239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597882233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8219b80227b3f0148a71fe2f98b653b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalSpeed: 100
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
