@@ -21,6 +21,7 @@ public class JumpScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            rb.velocity = Vector3.zero;
             rb.AddForce(jumpPower * Vector2.up);
         }
     }
